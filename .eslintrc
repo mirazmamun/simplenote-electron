@@ -17,24 +17,14 @@
   "extends": [
     "eslint:recommended",
     "plugin:jest/recommended",
-    "plugin:react/recommended",
-    "prettier",
-    "prettier/react"
+    "plugin:react/recommended"
   ],
-  "plugins": ["eslint-plugin-react", "jest", "prettier"],
+  "plugins": ["eslint-plugin-react", "jest"],
   "rules": {
     "eqeqeq": ["error", "always"],
     "no-lonely-if": "error",
     "no-shadow": "warn",
     "no-spaced-func": "error",
-    "prettier/prettier": [
-      "error",
-      {
-        "bracketSpacing": true,
-        "singleQuote": true,
-        "trailingComma": "es5"
-      }
-    ],
     "react/display-name": "warn",
     "react/no-deprecated": "warn",
     "react/no-string-refs": "warn",

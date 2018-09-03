@@ -296,6 +296,9 @@ const renderNote = (
               <PublishIcon />
             </div>
           )}
+          <span className="note-list-item-creation-date">
+          {new Date(note.data.creationDate * 1000).toLocaleString()}
+          </span>
         </div>
         {'condensed' !== noteDisplay &&
           preview.trim() && (

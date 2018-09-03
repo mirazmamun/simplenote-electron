@@ -153,6 +153,15 @@
     overflow: hidden;
   }
 
+  .note-list-item-creation-date {
+    display: block;
+    position: absolute;
+    right: 10px;
+    font-size: 0.8em;
+    color: #969292;
+    font-style: italic;
+  }
+
   &.note-list-item-selected {
     .note-list-item-title,
     .note-list-item-excerpt {
