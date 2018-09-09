@@ -297,7 +297,7 @@ const renderNote = (
             </div>
           )}
           <span className="note-list-item-creation-date">
-          {new Date(note.data.creationDate * 1000).toLocaleString()}
+          {`${new Date(note.data.creationDate * 1000).toLocaleTimeString()} ${new Date(note.data.creationDate * 1000).toLocaleDateString()}`}
           </span>
         </div>
         {'condensed' !== noteDisplay &&

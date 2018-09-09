@@ -10,7 +10,12 @@
   white-space: nowrap;
   overflow: visible;
   max-height: 120px;
-	padding: 8px 12px;
+  padding: 8px 12px;
+  border: 1px solid $input-border;
+  border-radius: 50vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 
   &:focus {
     outline: none;
